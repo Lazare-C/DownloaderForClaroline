@@ -10,8 +10,8 @@
 // @grant        GM_getValue
 // @grant        GM_setValue
 // @run-at       document-body
-// @downloadURL  http://lazarec.fr/downloader_for_claroline.user.js
-// @updateURL    http://lazarec.fr/downloader_for_claroline.user.js
+// @downloadURL  https://github.com/Lazare-C/DownloaderForClaroline/raw/main/downloader_for_claroline.user.js
+// @updateURL    https://github.com/Lazare-C/DownloaderForClaroline/raw/main/downloader_for_claroline.user.js
 // ==/UserScript==
 
 
