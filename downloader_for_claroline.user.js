@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Downloader for Claroline
-// @version      1.0.1
+// @version      1.0.3
 // @description  Add button to download all pdf on Claroline.
 // @iconURL      https://i.imgur.com/1Cplnzw.png
 // @icon64URL    https://i.imgur.com/1Cplnzw.png
@@ -18,6 +18,10 @@
 (function () {
     'use strict';
 
+    window.addEventListener('load', function () {
+
+
+
     if (document.getElementsByClassName('fa-download').length == 0)
     {
         let download = window.location.pathname.split('/')[4];
@@ -33,6 +37,8 @@
             '</nav>'
 
     }
+
+    }, false);
 
 
 })();
